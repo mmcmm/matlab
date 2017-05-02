@@ -1,4 +1,4 @@
-function [ x ] = GaussSeidel(a,b,n,epsilon,x0,MAX)
+function [ x ] = seidel(a,b,n,epsilon,x0,MAX)
 x=x0;
 d=0;
 iter=0;
